@@ -12,10 +12,10 @@
     </parent>
     
     <groupId>com.example</groupId>
-    <artifactId>alomundospringboot_docker</artifactId>
+    <artifactId>alomundo_springboot_docker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>alomundospringboot_docker</name>
+    <name>alomundo_springboot_docker</name>
     <description>Exemplo Alo Mundo Spring Boot Docker</description>
 
     <properties>

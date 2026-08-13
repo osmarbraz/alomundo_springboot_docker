@@ -5,7 +5,7 @@ Aplicação **Alomundo** desenvolvida em **Java com Spring Boot** e executada em
 ## Sobre o projeto
 
 - O projeto foi desenvolvido utilizando o **NetBeans**.
-- O nome do projeto deve ser **alomundospringboot_docker**.
+- O nome do projeto deve ser **alomundo_springboot_docker**.
 - Utiliza o **Java 8**.
 - Utiliza o **Spring Boot** para desenvolvimento da aplicação web.
 - Utiliza o **Apache Maven** para automatizar o processo de construção da aplicação.
@@ -25,4 +25,4 @@ Aplicação **Alomundo** desenvolvida em **Java com Spring Boot** e executada em
  - http://localhost:8080/
 
 ### Remover imagem
- - docker rmi alomundospringboot_docker
+ - docker rmi alomundo_springboot_docker

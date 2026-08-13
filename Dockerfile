@@ -20,11 +20,11 @@ EXPOSE 8080
 # do computador para o diretório /app dentro da imagem.
 #
 # Arquivo de origem:
-# ./target/alomundospringboot_docker-0.0.1-SNAPSHOT.jar
+# ./target/alomundo_springboot_docker-0.0.1-SNAPSHOT.jar
 #
 # Arquivo de destino dentro da imagem:
-# /app/alomundospringboot_docker-0.0.1-SNAPSHOT.jar
-COPY ./target/alomundospringboot_docker-0.0.1-SNAPSHOT.jar .
+# /app/alomundo_springboot_docker-0.0.1-SNAPSHOT.jar
+COPY ./target/alomundo_springboot_docker-0.0.1-SNAPSHOT.jar .
 
 # Define o comando executado automaticamente quando o container for iniciado.
 #
@@ -33,4 +33,4 @@ COPY ./target/alomundospringboot_docker-0.0.1-SNAPSHOT.jar .
 # dentro desse diretório.
 #
 # Ao executar o comando, a aplicação Spring Boot será iniciada.
-CMD ["java", "-jar", "./alomundospringboot_docker-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "./alomundo_springboot_docker-0.0.1-SNAPSHOT.jar"]
