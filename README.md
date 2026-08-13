@@ -22,7 +22,7 @@ Aplicação **Alomundo** desenvolvida em **Java com Spring Boot** e executada em
  - docker run --rm -p 8080:8080 alomundospringboot_docker
 
 ### Abra o navegador em:
-http://localhost:8080/
+ - http://localhost:8080/
 
 ### Remover imagem
  - docker rmi alomundospringboot_docker
