@@ -9,11 +9,12 @@ Aplicação **Alomundo** desenvolvida em **Java com Spring Boot** e executada em
 - Utiliza o **Java 8**.
 - Utiliza o **Spring Boot** para desenvolvimento da aplicação web.
 - Utiliza o **Apache Maven** para automatizar o processo de construção da aplicação.
+- A aplicação é empacotada no formato **JAR (Java ARchive)**.
 - Utiliza o **Docker** para criar uma imagem e executar a aplicação em um container.
 - A aplicação utiliza a porta **8080** para receber requisições HTTP.
 
 ## Comandos Docker
-- Utilizer o terminal do powershel em modo administrador.
+- Utilizer o terminal do Powershel em modo administrador.
 
 ### Construir a aplicação
  - docker build -t alomundo_springboot_docker .
