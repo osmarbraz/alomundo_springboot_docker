@@ -13,7 +13,7 @@
     
     <groupId>com.example</groupId>
     <artifactId>alomundo_springboot_docker</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>alomundo_springboot_docker</name>
     <description>Exemplo Alo Mundo Spring Boot Docker</description>

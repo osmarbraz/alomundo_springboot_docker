@@ -14,16 +14,19 @@ Aplicação **Alomundo** desenvolvida em **Java com Spring Boot** e executada em
 - A aplicação utiliza a porta **8080** para receber requisições HTTP.
 
 ## Comandos Docker
-- Utilizer o terminal do Powershel em modo administrador.
+- Utilizar o terminal do Windows Powershel em modo administrador.
 
 ### Construir a aplicação
- - docker build -t alomundo_springboot_docker .
+ - ```docker build -t alomundo_springboot_docker .```
 
 ### Rodar a aplicação
- - docker run --rm -p 8080:8080 alomundo_springboot_docker
+ - ```docker run --rm -p 8080:8080 alomundo_springboot_docker```
 
 ### Abra o navegador em:
  - http://localhost:8080/
 
 ### Remover imagem
- - docker rmi alomundo_springboot_docker
+ - ```docker rmi alomundo_springboot_docker```
+
+## Docker Hub
+ - https://hub.docker.com/r/osmarbraz/alomundo_springboot_docker
