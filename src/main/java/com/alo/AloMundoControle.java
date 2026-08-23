@@ -11,6 +11,6 @@ public class AloMundoControle {
     
     @RequestMapping("/")
     public String index() {
-        return contador.incrementAndGet() + " - Alô ,mundo Docker!";
+        return contador.incrementAndGet() + " - Al&ocirc; ,mundo Docker!";
     }
 }
